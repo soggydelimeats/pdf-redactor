@@ -153,7 +153,7 @@ def main():
     st.set_page_config(page_title="PDF PII Redactor", layout="wide")
     
     st.title("PDF PII Redactor")
-    st.write("Upload a PDF file to redact Personal Identifiable Information (PII)")
+    st.write("Upload a PDF file to see redaction options.")
     
     # Initialize session state for PII types
     if 'selected_pii_types' not in st.session_state:

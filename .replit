@@ -5,7 +5,8 @@ run = "streamlit run main.py"
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "streamlit run main.py"]
+run = ["sh", "-c", "streamlit run --server.address 0.0.0.0 --server.headless true --server.enableCORS=false --server.enableWebsocketCompression=false main.py"]
+deploymentTarget = "cloudrun"
 
 [[ports]]
 localPort = 8501
