@@ -307,3 +307,16 @@
 2025-01-02 21:23:08,840 - INFO - [Thread-2 (process_pdf_thread)] Saving redacted PDF
 2025-01-02 21:23:08,842 - INFO - [Thread-2 (process_pdf_thread)] Complete! Redacted 2 instances. Saved as: test_document_with_pii_redacted_20250102_212308.pdf
 2025-01-02 21:23:08,842 - INFO - [Thread-2 (process_pdf_thread)] Document closed successfully
+2025-01-02 21:34:43,073 - DEBUG - [MainThread] Popen(['git', 'version'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=None, shell=False, universal_newlines=False)
+2025-01-02 21:34:43,104 - DEBUG - [MainThread] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=None, shell=False, universal_newlines=False)
+2025-01-02 21:34:43,134 - DEBUG - [MainThread] Popen(['git', 'remote', 'get-url', '--all', 'origin'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=None, shell=False, universal_newlines=False)
+2025-01-02 21:34:43,163 - DEBUG - [MainThread] Popen(['git', 'status', '--porcelain', '--untracked-files'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=None, shell=False, universal_newlines=False)
+2025-01-02 21:34:43,189 - DEBUG - [MainThread] Popen(['git', 'diff', '--abbrev=40', '--full-index', '-M', '--raw', '-z', '--no-color'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=None, shell=False, universal_newlines=False)
+2025-01-02 21:34:43,208 - DEBUG - [Thread-2] NativeEvent(path="/Users/jason/Documents/GitHub/pdf-redactor/.git/index.lock", inode=172286875, flags=18300, id=38002993): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2025-01-02 21:34:43,208 - DEBUG - [Thread-2] queue_event FileCreatedEvent(src_path='/Users/jason/Documents/GitHub/pdf-redactor/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-01-02 21:34:43,209 - DEBUG - [Thread-2] queue_event DirModifiedEvent(src_path='/Users/jason/Documents/GitHub/pdf-redactor/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-01-02 21:34:43,209 - DEBUG - [Thread-2] queue_event FileModifiedEvent(src_path='/Users/jason/Documents/GitHub/pdf-redactor/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-01-02 21:34:43,209 - DEBUG - [Thread-2] queue_event FileDeletedEvent(src_path='/Users/jason/Documents/GitHub/pdf-redactor/.git/index.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-01-02 21:34:43,210 - DEBUG - [Thread-2] queue_event DirModifiedEvent(src_path='/Users/jason/Documents/GitHub/pdf-redactor/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-01-02 21:34:43,215 - DEBUG - [Thread-6 (pump_stream)] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=<valid stream>, shell=False, universal_newlines=False)
+2025-01-02 21:34:43,244 - DEBUG - [MainThread] Popen(['git', 'rev-list', 'origin/main..main', '--'], cwd=/Users/jason/Documents/GitHub/pdf-redactor, stdin=None, shell=False, universal_newlines=False)
