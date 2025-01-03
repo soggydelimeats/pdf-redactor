@@ -1,0 +1,309 @@
+2025-01-02 20:56:47,951 - INFO - Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 20:57:04,595 - ERROR - Error processing PDF: search_for() got an unexpected keyword argument 'regex'
+2025-01-02 20:58:36,282 - INFO - Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:04:15,825 - INFO - Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:06:52,220 - INFO - Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:13:11,642 - INFO - [MainThread] Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:13:18,542 - INFO - [Thread-1 (process_pdf_thread)] Starting PDF processing for: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:13:18,542 - INFO - [Thread-1 (process_pdf_thread)] Output will be saved to: /Users/jason/Desktop/Claude/test_document_with_pii_redacted_20250102_211318.pdf
+2025-01-02 21:13:18,542 - DEBUG - [Thread-1 (process_pdf_thread)] Opening PDF document
+2025-01-02 21:13:18,543 - INFO - [Thread-1 (process_pdf_thread)] Document has 2 pages
+2025-01-02 21:13:18,544 - DEBUG - [Thread-1 (process_pdf_thread)] Processing page 1/2
+2025-01-02 21:13:18,558 - DEBUG - [Thread-1 (process_pdf_thread)] Successfully extracted text from page 1
+2025-01-02 21:13:18,558 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for SSN patterns on page 1
+2025-01-02 21:13:18,558 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for SSN
+2025-01-02 21:13:18,558 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 123...
+2025-01-02 21:13:18,562 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,563 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,567 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,592 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Email patterns on page 1
+2025-01-02 21:13:18,593 - DEBUG - [Thread-1 (process_pdf_thread)] Found 3 matches for Email
+2025-01-02 21:13:18,593 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: joh...
+2025-01-02 21:13:18,598 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,600 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,603 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,603 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: jsm...
+2025-01-02 21:13:18,607 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,608 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,611 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,611 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: jan...
+2025-01-02 21:13:18,616 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,617 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,620 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,765 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Phone patterns on page 1
+2025-01-02 21:13:18,766 - DEBUG - [Thread-1 (process_pdf_thread)] Found 4 matches for Phone
+2025-01-02 21:13:18,766 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:13:18,770 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,771 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,774 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,774 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:13:18,778 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,779 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,782 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,782 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:13:18,786 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,787 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,790 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,790 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:13:18,794 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,795 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,798 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,826 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Credit Card patterns on page 1
+2025-01-02 21:13:18,827 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for Credit Card
+2025-01-02 21:13:18,827 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 453...
+2025-01-02 21:13:18,831 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,832 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,835 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,868 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Date of Birth patterns on page 1
+2025-01-02 21:13:18,868 - DEBUG - [Thread-1 (process_pdf_thread)] Found 3 matches for Date of Birth
+2025-01-02 21:13:18,868 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 01/...
+2025-01-02 21:13:18,872 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,873 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,876 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,876 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 05/...
+2025-01-02 21:13:18,879 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,880 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,883 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,883 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 12/...
+2025-01-02 21:13:18,887 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,888 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,891 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,913 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for IP Address patterns on page 1
+2025-01-02 21:13:18,913 - DEBUG - [Thread-1 (process_pdf_thread)] Found 2 matches for IP Address
+2025-01-02 21:13:18,914 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 192...
+2025-01-02 21:13:18,917 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,918 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,920 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:18,921 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 10....
+2025-01-02 21:13:18,925 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:18,926 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:18,928 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:19,128 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Address patterns on page 1
+2025-01-02 21:13:19,263 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Address
+2025-01-02 21:13:19,263 - INFO - [Thread-1 (process_pdf_thread)] Completed processing page 1
+2025-01-02 21:13:19,263 - DEBUG - [Thread-1 (process_pdf_thread)] Processing page 2/2
+2025-01-02 21:13:19,264 - DEBUG - [Thread-1 (process_pdf_thread)] Successfully extracted text from page 2
+2025-01-02 21:13:19,264 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for SSN patterns on page 2
+2025-01-02 21:13:19,265 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for SSN
+2025-01-02 21:13:19,265 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 234...
+2025-01-02 21:13:19,266 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:19,266 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:19,268 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:19,293 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Email patterns on page 2
+2025-01-02 21:13:19,294 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Email
+2025-01-02 21:13:19,294 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Phone patterns on page 2
+2025-01-02 21:13:19,294 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for Phone
+2025-01-02 21:13:19,294 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:13:19,296 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:19,297 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:19,300 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:19,326 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Credit Card patterns on page 2
+2025-01-02 21:13:19,326 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for Credit Card
+2025-01-02 21:13:19,326 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 567...
+2025-01-02 21:13:19,328 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:19,330 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:19,333 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:19,356 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Date of Birth patterns on page 2
+2025-01-02 21:13:19,356 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Date of Birth
+2025-01-02 21:13:19,357 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for IP Address patterns on page 2
+2025-01-02 21:13:19,357 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for IP Address
+2025-01-02 21:13:19,357 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 192...
+2025-01-02 21:13:19,359 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:13:19,360 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:13:19,363 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:13:19,387 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Address patterns on page 2
+2025-01-02 21:17:09,114 - INFO - [MainThread] Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:17:21,746 - INFO - [Thread-1 (process_pdf_thread)] Starting PDF processing for: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:17:21,746 - INFO - [Thread-1 (process_pdf_thread)] Output will be saved to: /Users/jason/Desktop/Claude/test_document_with_pii_redacted_20250102_211721.pdf
+2025-01-02 21:17:21,746 - DEBUG - [Thread-1 (process_pdf_thread)] Opening PDF document
+2025-01-02 21:17:21,747 - INFO - [Thread-1 (process_pdf_thread)] Document has 2 pages
+2025-01-02 21:17:21,748 - DEBUG - [Thread-1 (process_pdf_thread)] Processing page 1/2
+2025-01-02 21:17:21,762 - DEBUG - [Thread-1 (process_pdf_thread)] Successfully extracted text from page 1
+2025-01-02 21:17:21,762 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for SSN patterns on page 1
+2025-01-02 21:17:21,762 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,762 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for SSN
+2025-01-02 21:17:21,762 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Email patterns on page 1
+2025-01-02 21:17:21,763 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,763 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Email
+2025-01-02 21:17:21,763 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Phone patterns on page 1
+2025-01-02 21:17:21,763 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,763 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Phone
+2025-01-02 21:17:21,763 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Credit Card patterns on page 1
+2025-01-02 21:17:21,763 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,763 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Credit Card
+2025-01-02 21:17:21,764 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Date of Birth patterns on page 1
+2025-01-02 21:17:21,764 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,764 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Date of Birth
+2025-01-02 21:17:21,764 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for IP Address patterns on page 1
+2025-01-02 21:17:21,764 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,764 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for IP Address
+2025-01-02 21:17:21,764 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Address patterns on page 1
+2025-01-02 21:17:21,764 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,764 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Address
+2025-01-02 21:17:21,765 - INFO - [Thread-1 (process_pdf_thread)] Completed processing page 1
+2025-01-02 21:17:21,765 - DEBUG - [Thread-1 (process_pdf_thread)] Processing page 2/2
+2025-01-02 21:17:21,766 - DEBUG - [Thread-1 (process_pdf_thread)] Successfully extracted text from page 2
+2025-01-02 21:17:21,766 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for SSN patterns on page 2
+2025-01-02 21:17:21,766 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,766 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for SSN
+2025-01-02 21:17:21,766 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Email patterns on page 2
+2025-01-02 21:17:21,767 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Email
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Phone patterns on page 2
+2025-01-02 21:17:21,767 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Phone
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Credit Card patterns on page 2
+2025-01-02 21:17:21,767 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Credit Card
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Date of Birth patterns on page 2
+2025-01-02 21:17:21,767 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,767 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Date of Birth
+2025-01-02 21:17:21,768 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for IP Address patterns on page 2
+2025-01-02 21:17:21,768 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,768 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for IP Address
+2025-01-02 21:17:21,768 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Address patterns on page 2
+2025-01-02 21:17:21,768 - ERROR - [Thread-1 (process_pdf_thread)] Error in regex search: signal only works in main thread of the main interpreter
+2025-01-02 21:17:21,768 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Address
+2025-01-02 21:17:21,768 - INFO - [Thread-1 (process_pdf_thread)] Completed processing page 2
+2025-01-02 21:17:21,768 - INFO - [Thread-1 (process_pdf_thread)] Saving redacted PDF
+2025-01-02 21:17:21,957 - INFO - [Thread-1 (process_pdf_thread)] Complete! Saved as: test_document_with_pii_redacted_20250102_211721.pdf
+2025-01-02 21:17:21,958 - INFO - [Thread-1 (process_pdf_thread)] Document closed successfully
+2025-01-02 21:22:22,312 - INFO - [MainThread] Selected file: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:22:28,977 - INFO - [Thread-1 (process_pdf_thread)] Starting PDF processing for: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:22:28,978 - INFO - [Thread-1 (process_pdf_thread)] Output will be saved to: /Users/jason/Desktop/Claude/test_document_with_pii_redacted_20250102_212228.pdf
+2025-01-02 21:22:28,978 - DEBUG - [Thread-1 (process_pdf_thread)] Opening PDF document
+2025-01-02 21:22:28,979 - INFO - [Thread-1 (process_pdf_thread)] Document has 2 pages
+2025-01-02 21:22:28,979 - DEBUG - [Thread-1 (process_pdf_thread)] Processing page 1/2
+2025-01-02 21:22:28,994 - DEBUG - [Thread-1 (process_pdf_thread)] Successfully extracted text from page 1
+2025-01-02 21:22:28,994 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for SSN patterns on page 1
+2025-01-02 21:22:28,994 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for SSN
+2025-01-02 21:22:28,995 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 123...
+2025-01-02 21:22:28,998 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,000 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,004 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,028 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Email patterns on page 1
+2025-01-02 21:22:29,029 - DEBUG - [Thread-1 (process_pdf_thread)] Found 3 matches for Email
+2025-01-02 21:22:29,029 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: joh...
+2025-01-02 21:22:29,032 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,033 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,035 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,035 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: jsm...
+2025-01-02 21:22:29,039 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,040 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,042 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,042 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: jan...
+2025-01-02 21:22:29,047 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,048 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,050 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,074 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Phone patterns on page 1
+2025-01-02 21:22:29,074 - DEBUG - [Thread-1 (process_pdf_thread)] Found 4 matches for Phone
+2025-01-02 21:22:29,074 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:22:29,079 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,080 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,083 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,083 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:22:29,086 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,087 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,090 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,090 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:22:29,094 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,095 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,097 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,097 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:22:29,101 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,102 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,105 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,130 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Credit Card patterns on page 1
+2025-01-02 21:22:29,130 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for Credit Card
+2025-01-02 21:22:29,130 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 453...
+2025-01-02 21:22:29,135 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,137 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,140 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,162 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Date of Birth patterns on page 1
+2025-01-02 21:22:29,163 - DEBUG - [Thread-1 (process_pdf_thread)] Found 3 matches for Date of Birth
+2025-01-02 21:22:29,163 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 01/...
+2025-01-02 21:22:29,167 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,169 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,172 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,172 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 05/...
+2025-01-02 21:22:29,176 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,177 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,180 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,180 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 12/...
+2025-01-02 21:22:29,184 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,185 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,188 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,303 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for IP Address patterns on page 1
+2025-01-02 21:22:29,303 - DEBUG - [Thread-1 (process_pdf_thread)] Found 2 matches for IP Address
+2025-01-02 21:22:29,303 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 192...
+2025-01-02 21:22:29,308 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,310 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,313 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,313 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 10....
+2025-01-02 21:22:29,318 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,319 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,322 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,504 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Address patterns on page 1
+2025-01-02 21:22:29,505 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Address
+2025-01-02 21:22:29,505 - INFO - [Thread-1 (process_pdf_thread)] Completed processing page 1
+2025-01-02 21:22:29,505 - DEBUG - [Thread-1 (process_pdf_thread)] Processing page 2/2
+2025-01-02 21:22:29,508 - DEBUG - [Thread-1 (process_pdf_thread)] Successfully extracted text from page 2
+2025-01-02 21:22:29,508 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for SSN patterns on page 2
+2025-01-02 21:22:29,508 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for SSN
+2025-01-02 21:22:29,508 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 234...
+2025-01-02 21:22:29,510 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,511 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,514 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,538 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Email patterns on page 2
+2025-01-02 21:22:29,538 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Email
+2025-01-02 21:22:29,539 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Phone patterns on page 2
+2025-01-02 21:22:29,539 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for Phone
+2025-01-02 21:22:29,539 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 555...
+2025-01-02 21:22:29,540 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,541 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,544 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,567 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Credit Card patterns on page 2
+2025-01-02 21:22:29,567 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for Credit Card
+2025-01-02 21:22:29,567 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 567...
+2025-01-02 21:22:29,568 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,569 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,572 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,595 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Date of Birth patterns on page 2
+2025-01-02 21:22:29,595 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Date of Birth
+2025-01-02 21:22:29,596 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for IP Address patterns on page 2
+2025-01-02 21:22:29,596 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 matches for IP Address
+2025-01-02 21:22:29,596 - DEBUG - [Thread-1 (process_pdf_thread)] Processing match: 192...
+2025-01-02 21:22:29,597 - DEBUG - [Thread-1 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:22:29,599 - DEBUG - [Thread-1 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:22:29,602 - DEBUG - [Thread-1 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:22:29,627 - DEBUG - [Thread-1 (process_pdf_thread)] Searching for Address patterns on page 2
+2025-01-02 21:22:29,627 - DEBUG - [Thread-1 (process_pdf_thread)] Found 0 matches for Address
+2025-01-02 21:22:29,627 - INFO - [Thread-1 (process_pdf_thread)] Completed processing page 2
+2025-01-02 21:22:29,628 - INFO - [Thread-1 (process_pdf_thread)] Saving redacted PDF
+2025-01-02 21:22:29,641 - INFO - [Thread-1 (process_pdf_thread)] Complete! Redacted 18 instances. Saved as: test_document_with_pii_redacted_20250102_212228.pdf
+2025-01-02 21:22:29,641 - INFO - [Thread-1 (process_pdf_thread)] Document closed successfully
+2025-01-02 21:23:08,497 - INFO - [Thread-2 (process_pdf_thread)] Starting PDF processing for: /Users/jason/Desktop/Claude/test_document_with_pii.pdf
+2025-01-02 21:23:08,587 - INFO - [Thread-2 (process_pdf_thread)] Output will be saved to: /Users/jason/Desktop/Claude/test_document_with_pii_redacted_20250102_212308.pdf
+2025-01-02 21:23:08,587 - DEBUG - [Thread-2 (process_pdf_thread)] Opening PDF document
+2025-01-02 21:23:08,588 - INFO - [Thread-2 (process_pdf_thread)] Document has 2 pages
+2025-01-02 21:23:08,589 - DEBUG - [Thread-2 (process_pdf_thread)] Processing page 1/2
+2025-01-02 21:23:08,596 - DEBUG - [Thread-2 (process_pdf_thread)] Successfully extracted text from page 1
+2025-01-02 21:23:08,601 - DEBUG - [Thread-2 (process_pdf_thread)] Searching for SSN patterns on page 1
+2025-01-02 21:23:08,601 - DEBUG - [Thread-2 (process_pdf_thread)] Found 1 matches for SSN
+2025-01-02 21:23:08,601 - DEBUG - [Thread-2 (process_pdf_thread)] Processing match: 123...
+2025-01-02 21:23:08,604 - DEBUG - [Thread-2 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:23:08,606 - DEBUG - [Thread-2 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:23:08,609 - DEBUG - [Thread-2 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:23:08,803 - INFO - [Thread-2 (process_pdf_thread)] Completed processing page 1
+2025-01-02 21:23:08,803 - DEBUG - [Thread-2 (process_pdf_thread)] Processing page 2/2
+2025-01-02 21:23:08,806 - DEBUG - [Thread-2 (process_pdf_thread)] Successfully extracted text from page 2
+2025-01-02 21:23:08,806 - DEBUG - [Thread-2 (process_pdf_thread)] Searching for SSN patterns on page 2
+2025-01-02 21:23:08,806 - DEBUG - [Thread-2 (process_pdf_thread)] Found 1 matches for SSN
+2025-01-02 21:23:08,806 - DEBUG - [Thread-2 (process_pdf_thread)] Processing match: 234...
+2025-01-02 21:23:08,808 - DEBUG - [Thread-2 (process_pdf_thread)] Found 1 instances on page
+2025-01-02 21:23:08,810 - DEBUG - [Thread-2 (process_pdf_thread)] Applied visual redaction
+2025-01-02 21:23:08,813 - DEBUG - [Thread-2 (process_pdf_thread)] Applied redaction annotation
+2025-01-02 21:23:08,840 - INFO - [Thread-2 (process_pdf_thread)] Completed processing page 2
+2025-01-02 21:23:08,840 - INFO - [Thread-2 (process_pdf_thread)] Saving redacted PDF
+2025-01-02 21:23:08,842 - INFO - [Thread-2 (process_pdf_thread)] Complete! Redacted 2 instances. Saved as: test_document_with_pii_redacted_20250102_212308.pdf
+2025-01-02 21:23:08,842 - INFO - [Thread-2 (process_pdf_thread)] Document closed successfully
